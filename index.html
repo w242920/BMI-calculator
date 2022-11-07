@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI計算機</title>
+    <link rel="stylesheet" href="./BMI.css">
+</head>
+<body>
+    <main>
+        <div class="mainbox">
+            <div class="input">
+            <h1>BMI計算機</h1>
+            <!-- <div class="databox"> -->
+            <p class="input_text tall">請輸入身高(cm)： 
+            <input type="text" class="input_bar input_bar_tall">
+            </p>
+            <p class="input_text weight">請輸入體重(kg)： 
+            <input type="text" class="input_bar input_bar_weight">
+            </p>
+            <!-- </div> -->
+            <div class="button_box">
+                <button class="calculate">開始計算</button>
+                <button class="recalculate">重新計算</button>
+            </div>
+        </div>
+        <div class="output">
+            <p>BMI值:<span class="BMIrate"></span></p>
+            <p>身體狀態：<span class="result"></span></p>
+            <p>建議參考：<span class="suggestion"></span></p>
+        </div>
+        </div>
+    </main>
+
+    <script src="./BMI.js"></script>
+</body>
+</html>
